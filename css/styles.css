@@ -1,0 +1,59 @@
+li {
+  list-style-type: none;
+}
+
+.container_content {
+  margin-top: 50px;
+}
+.second_block {
+  background-color: yellow;
+  text-align: center;
+  color: black;
+  height: auto;
+  padding: 10px;
+}
+
+.yellow_line {
+  text-align: left;
+}
+
+.album_cover {
+    width: 100%;
+    
+    border: 10px solid gray;
+    max-height: 250px;
+    
+}
+.about_cover {
+    width: 25%;
+    border: 10px solid rebeccapurple;
+}
+
+.contacts_cover {
+    width: 35%;
+    border: 10px solid goldenrod;
+}
+
+/*Classes*/
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+.col {
+  background: blue;
+}
+
+.col-8 {
+  background: gray;
+}
+
+/*// Usage as mixins
+.element {
+  .pull-left();
+}
+.another-element {
+  .pull-right();
+}*/
